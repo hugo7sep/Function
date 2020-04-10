@@ -3,31 +3,31 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "appName": {
-        "value": "TeamsProvisioningDev"
+        "value": "Teams Provisioning"
       },
       "repoUrl": {
-        "value": "https://github.com/BobGerman/TeamsProvisioning.git"
+        "value": "https://github.com/hugo7sep/Function.git"
       },
       "branch": {
         "value": "dev"
       },
       "TENANT": {
-        "value": "a25d4ef1-c73a-4dc1-bdb1-9a342260f216"
+        "value": "bede0c4e-da3c-4d14-86d1-8ba5e74f9e1b"
       },
       "TENANT_NAME": {
-        "value": "bgtest18"
+        "value": "hugolab"
       },
       "CLIENT_ID": {
-        "value": "3b34741d-68fc-4465-b25e-d6fba3de701d"
+        "value": "824146b2-f735-4862-910b-4fefb8d76371"
       },
       "CLIENT_SECRET": {
-        "value": "@Microsoft.KeyVault(SecretUri=https://teamsprovisioning.vault.azure.net/secrets/client-secret/cd56ab45a33e47bfb0b091c75b99099a)"
+        "value": "@Microsoft.KeyVault(SecretUri=https://teamskeyvault.vault.azure.net/secrets/TeamsProvisioning/edaaf1071fad44f58d60353c24ae5448)"
       },
       "TEMPLATE_SITE_URL": {
-        "value": "/sites/TeamsProvisioning"
+        "value": "/sites/TeamProvisioning"
       },
       "TEMPLATE_LIB_NAME": {
-        "value": "templates"
+        "value": "TeamsProvisioning"
       }
     }
   }
